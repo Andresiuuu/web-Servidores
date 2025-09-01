@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servidores de Internet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Servidores de Internet</h1>
+    
+    <div class="servidor-section">
+        <h2>1. Servidor DNS</h2>
+        <img src="imagenes/DNS.png" alt="Sistema DNS" width="500" height="300">
+        
+        <h3>¿Qué es y para qué sirve?</h3>
+        <p>Un servidor DNS (Sistema de Nombres de Dominio) es como una guía telefónica de Internet. Su función principal es traducir los nombres de dominio que son fáciles de recordar para los humanos (como www.google.com) en direcciones IP numéricas que las computadoras pueden entender.</p>
+        
+        <div class="ejemplo">
+            <strong>Ejemplo:</strong> Cuando escribes "www.google.com" en tu navegador, el servidor DNS traduce este nombre a la dirección IP 142.250.191.14, permitiendo que tu computadora se conecte al servidor de Google.
+        </div>
+        
+        <p>Sin los servidores DNS, tendríamos que memorizar direcciones IP numéricas para visitar cada sitio web, lo cual sería muy complicado.</p>
+    </div>
+
+    <div class="servidor-section">
+        <h2>2. Servidor WEB</h2>
+        <img src="imagenes/WEB.jpeg" alt="Sistema DNS" width="500" height="300">
+        
+        <h3>¿Qué es y qué función cumple?</h3>
+        <p>Un servidor web es una computadora que almacena, procesa y entrega páginas web a los usuarios. Utiliza el protocolo HTTP o HTTPS para comunicarse con los navegadores web y enviar el contenido solicitado.</p>
+        
+        <div class="ejemplo">
+            <strong>Ejemplos de páginas que visitas diariamente:</strong>
+            <ul>
+                <li>Facebook - Redes sociales</li>
+                <li>YouTube - Videos en línea</li>
+                <li>Amazon - Compras en línea</li>
+                <li>Wikipedia - Enciclopedia en línea</li>
+                <li>Gmail - Correo electrónico</li>
+            </ul>
+        </div>
+        
+        <p>Cada vez que haces clic en un enlace o escribes una URL, estás solicitando información a un servidor web.</p>
+    </div>
+
+    <div class="servidor-section">
+        <h2>3. Servidor FTP</h2>
+        <img src="imagenes/FTP.png" alt="Sistema DNS" width="500" height="300">
+        <h3>¿Para qué se usa?</h3>
+        <p>FTP (Protocolo de Transferencia de Archivos) es un servidor especializado en la transferencia de archivos entre computadoras a través de Internet. Permite subir y descargar archivos de manera eficiente y segura.</p>
+        
+        <div class="ejemplo">
+            <strong>Ejemplos de uso:</strong>
+            <ul>
+                <li>Subir archivos de un sitio web al servidor de hosting</li>
+                <li>Descargar software desde servidores de empresas</li>
+                <li>Compartir archivos grandes entre oficinas de una empresa</li>
+                <li>Hacer respaldos de archivos importantes en servidores remotos</li>
+            </ul>
+        </div>
+        
+        <p>Los servidores FTP son especialmente útiles para desarrolladores web y empresas que necesitan transferir archivos de gran tamaño regularmente.</p>
+    </div>
+
+    <div class="servidor-section">
+        <h2>4. Servidor DHCP</h2>
+        <img src="imagenes/DHCP.webp" alt="Sistema DNS" width="500" height="300">        
+        <h3>¿Qué hace con las direcciones IP?</h3>
+        <p>El servidor DHCP (Protocolo de Configuración Dinámica de Host) asigna automáticamente direcciones IP y otros parámetros de red a los dispositivos que se conectan a una red. Esto elimina la necesidad de configurar manualmente cada dispositivo.</p>
+        
+        <div class="ejemplo">
+            <strong>Ejemplo:</strong> Cuando conectas tu teléfono, laptop o tablet al WiFi de tu casa, el router (que actúa como servidor DHCP) automáticamente le asigna una dirección IP única a cada dispositivo, como:
+            <ul>
+                <li>Teléfono: 192.168.1.100</li>
+                <li>Laptop: 192.168.1.101</li>
+                <li>Tablet: 192.168.1.102</li>
+            </ul>
+        </div>
+        
+        <p>Sin DHCP, tendrías que configurar manualmente la dirección IP de cada dispositivo, lo cual sería muy tedioso y propenso a errores.</p>
+    </div>
+
+    <div class="servidor-section">
+        <h2>5. Servidor de Correos</h2>
+        <img src="imagenes/OIP.webp" alt="" width="500" height="300">        
+        <h3>Diferencia entre enviar (SMTP) y recibir (IMAP/POP3)</h3>
+        <p>Los servidores de correo manejan el envío y recepción de emails. Utilizan diferentes protocolos según la función:</p>
+        
+        <h3>SMTP (Envío)</h3>
+        <p><strong>Simple Mail Transfer Protocol</strong> - Se encarga de enviar correos electrónicos desde tu cliente de email hacia el servidor de correo del destinatario.</p>
+        
+        <h3>IMAP y POP3 (Recepción)</h3>
+        <p><strong>IMAP (Internet Message Access Protocol):</strong> Mantiene los correos en el servidor, permitiendo acceso desde múltiples dispositivos con sincronización.</p>
+        <p><strong>POP3 (Post Office Protocol 3):</strong> Descarga los correos al dispositivo y generalmente los elimina del servidor.</p>
+        
+        <div class="ejemplo">
+            <strong>Ejemplo práctico:</strong>
+            <ul>
+                <li>Cuando envías un email desde Gmail, usa SMTP para enviarlo</li>
+                <li>Cuando recibes emails en tu teléfono y computadora simultáneamente, se usa IMAP</li>
+                <li>Si descargas todos tus emails a una sola computadora, se usa POP3</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer style="margin-top: 50px; text-align: center; padding: 20px; border-top: 1px solid #ccc;">
+        <p></p>
+    </footer>
+</body>
+</html>
